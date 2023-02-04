@@ -1,70 +1,46 @@
-☕️ [Buy me a coffee](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=SC4D2NS8G2JJ8&source=url)
+# Getting Started with Create React App
 
-![Node CI](https://github.com/agentcooper/react-pdf-highlighter/workflows/Node%20CI/badge.svg)
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## react-pdf-highlighter
+## Available Scripts
 
-`react-pdf-highlighter` is a [React](https://reactjs.org/) library that provides annotation experience for PDF documents on web. It is built on top of PDF.js by Mozilla. Text and rectangular highlights are supported. Highlight
-data format is independent of the viewport, making it suitable for saving on the
-server.
+In the project directory, you can run:
 
-### Example
+### `npm start`
 
-For online example check https://agentcooper.github.io/react-pdf-highlighter/.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-To run the example app locally:
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-```
-npm install
-npm start
-```
+### `npm test`
 
-Create React App example is available in [`./create-react-app-example`](https://github.com/agentcooper/react-pdf-highlighter/tree/main/create-react-app-example). Make sure to run `npm install` there as well.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Installation
+### `npm run build`
 
-`npm install react-pdf-highlighter`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-See
-[`./example/src/App.tsx`](https://github.com/agentcooper/react-pdf-highlighter/blob/main/example/src/App.tsx)
-for React component API example.
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-### Prior art
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-[`react-pdf`](https://github.com/wojtekmaj/react-pdf) and
-[`react-pdfjs`](https://github.com/erikras/react-pdfjs) only provide React
-wrappers for PDF.js and do not have built-in annotation functionality.
+### `npm run eject`
 
-[`pdfjs-annotate`](https://github.com/instructure/pdf-annotate.js/) does not
-provide text highlights out of the box.
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-PDF.js provides only viewer:
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-> [PDF.js is mainly written for reading PDF files, not editing them. Because of that we don't yet support adding any kind of annotations. We do however support rendering a number of annotation types for viewing.](https://github.com/mozilla/pdf.js/wiki/Frequently-Asked-Questions#is-it-possible-to-add-annotations-to-a-pdf)
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-See also:
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-- https://github.com/mozilla/pdf.js
-- https://github.com/wojtekmaj/react-pdf
-- https://github.com/erikras/react-pdfjs
-- https://github.com/instructure/pdf-annotate.js/
-- https://blogs.dropbox.com/tech/2016/11/annotations-on-document-previews/
+## Learn More
 
-### FAQ
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-##### Can I get a new PDF with the highlights embedded into the document?
-
-Take a look at https://pdf-lib.js.org.
-
-##### Wasn't this named react-pdf-annotator at some point?
-
-Yes, but people from https://www.pdfannotator.com/ asked me to rename, since [they have a trademark for PDF Annotator](https://www.pdfannotator.com/en/help/infodisclaimer).
-
-##### I'm trying the demo with my PDF and it is not loading!
-
-Please check the [CORS headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) on your url. It is required for the cross-domain request.
-
-### Compatibility
-
-Works in Google Chrome, Safari 10+, Firefox 52+. Not tested in Internet
-Explorer.
+To learn React, check out the [React documentation](https://reactjs.org/).

@@ -1,21 +1,10 @@
 import React, { Component } from "react";
 
-import {
-  PdfLoader,
-  PdfHighlighter,
-  Tip,
-  Highlight,
-  Popup,
-  AreaHighlight,
-} from "./react-pdf-highlighter";
-
-import type { IHighlight, NewHighlight } from "./react-pdf-highlighter";
-
 import { testHighlights as _testHighlights } from "./test-highlights";
 import { Spinner } from "./Spinner";
 import { Sidebar } from "./Sidebar";
 
-import "./style/App.css";
+import { IHighlight, NewHighlight, PdfLoader, PdfHighlighter, Tip, Highlight, AreaHighlight, Popup } from "./folder";
 
 const testHighlights: Record<string, Array<IHighlight>> = _testHighlights;
 
